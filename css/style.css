@@ -1,6 +1,7 @@
 :root {
   /*---------------- Colors ------------ */
   --orange-red: #f4511e;
+  --green:#559e54;
   --family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, inherit;
 }
@@ -100,9 +101,9 @@ nav {
   text-decoration: none;
 }
 .hero-btn {
-  background: indianred;
-  padding: 0.5em;
-  margin: -5px;
+  background:#559e54;
+  padding: 0.4em;
+  margin-left: auto;
   border-radius: 3px;
   font-weight: 100;
 }
@@ -161,6 +162,11 @@ nav {
   color: black;
   border-radius: 1rem;
   cursor: pointer;
+}
+.about-article-1 button:hover{
+  background-color:var(--green) ;
+  color: aliceblue;
+  border: none;
 }
 .about-section-1 div {
   display: grid;
@@ -441,13 +447,14 @@ nav {
   width: 7rem;
   font-size: 1.5rem;
   border-radius: 5px;
-  color: black;
+  color: white;
   padding: 10px;
   font-family: inherit;
-  background: transparent;
+  background: teal;
   margin-left: auto;
   border: none;
-  box-shadow: 0px 0px 1px 0px black;  
+  box-shadow: 0px 0px 1px 0px black;
+  cursor: pointer;  
 }
 /*---------------- Footer ------------ */
 .top-btn {
@@ -579,6 +586,9 @@ nav {
   }
   .contact-form {
     flex-direction: column;
+  }
+  .carousel-track-container{
+    font-family: inherit;
   }
 
 }
