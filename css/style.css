@@ -270,14 +270,12 @@ nav {
   color: gray;
 }
 .portfolio-carousel{
-  
   margin-top: 5rem;
   display: grid;
   place-items: center;
   margin: 7rem 0rem 7rem 0rem;
   } 
 .portfolio-carousel h1{
-  
   font-size: 3rem;
   text-align: center;
   padding: 5rem 1rem 5rem 1rem;
@@ -287,6 +285,7 @@ nav {
 .carousel-container{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   padding-bottom: 2rem;
   width: 60%;
@@ -311,6 +310,7 @@ nav {
   border: none;
   background: none;
   cursor: pointer;
+  height: 20px;
 }
 .carousel-indicator{
   border-radius: 50%;
@@ -355,7 +355,6 @@ nav {
 }
 .card-header h1 {
   font-size: 4rem;
-  border: 1px solid black;
 }
 .card-body {
   display: grid;
@@ -570,25 +569,20 @@ nav {
   .about-article-2 {
     justify-content: center;
   }
-
   .hero-email {
     width: 100%;
     margin-bottom: 5px;
   }
-
-
-
   /*---------------- Cards-Class ------------ */
   .cards {
     grid-template-columns: auto;
   }
   .card-header  {
-    position: relative;
     display: grid;
     place-items: center;
   }
   .card-header h1 {
-    position: absolute;
+    text-align: center;
     font-size: 3rem;
   }
 
@@ -618,7 +612,7 @@ nav {
   }
 /*---------------- Portfolio ------------ */  
   .carousel-container{
-    width: 100%;
+    width: 90%;
   }
   .carousel-track-container{
     font-family: inherit;
